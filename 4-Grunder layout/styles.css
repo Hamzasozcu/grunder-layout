@@ -1,0 +1,34 @@
+body{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hwb(180 4% 15%);
+    }
+
+    article, footer{
+        background-color: lightgreen;
+    }
+
+    a{
+
+       text-decoration: none; 
+       color:blue;
+       background-color: aquamarine;
+    }
+
+article{
+
+    padding:0 10px;
+
+}
+main{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+   
+}
+
+
+    a:hover {
+        text-decoration: underline;
+        color: brown;
+    }
